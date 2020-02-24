@@ -6,7 +6,6 @@ Esta es una aplicación web formulada para generar claves con el tipo de cifrado
 ![Image2](2.jpg)
 ![Image3](3.jpg)
 ![Image4](4.jpg)
-![alt tag](http://url/to/img.png)
 
 
 
