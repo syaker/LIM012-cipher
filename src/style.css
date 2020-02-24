@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    opacity: 0.5;
+}
+
+#fondo1 {
+    background-image: url("https://images.unsplash.com/photo-1543515653-16418249b1b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-color: white;
+    margin: 0px;
+    height: 625px;
+    width: 100%;
+}
+
+#fondo1:before {
+
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.4;
+}
+
+#fondo1 logo1,icon,user,form1 {
+    z-index: 1;
+}
+
+#entrada {
+    background-color: white ;
+    margin: 0px;
+    color: #666666;
+    padding-left: 25px;
+    padding-top: 350px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    border-radius: 8px;
+    position: absolute;
+    left: 515px;
+    top: 80px;
+
+}
+input, textarea {
+    outline: none;
+}
+
+#form {
+    position: absolute;
+    top: 200px;
+}
+
+#logo1 {
+    position: absolute;
+    width: 160px; height: 210px;
+    top: 50px;
+    left: 95px;
+}
+
+#icon{
+    position: absolute;
+    width: 20px; height: 20px;
+    bottom: 107px;
+}
+
+#boleta{
+    font-size: 15px;
+    font-family: arial;
+    height: 30px;
+    padding: 7px;
+    border: 1px #ececec;
+    border-radius: 6px;
+    background-color:#ececec;
+}
+
+#user {
+    position: absolute;
+    font-family: arial;
+    font-size: 18px;
+    left: 50px;
+    bottom: 85px;
+}
+
+#ingresar{
+    left: 800px;
+    top: 800px;
+    margin: 0px;
+    background-color: rgba(255, 217, 0, 0.836);
+    border: 0px;
+    font-size: 20px;
+    padding: 9.5px;
+}
+
+#cifrar {
+    position: absolute;
+    left: 0px;
+    top: 310px;
+    margin: 0px;
+    color: #424D51;
+    background-color: #F4C300;
+    transition: background-color .5s;
+    border: 0px;
+    font-size: 100px;
+    padding: 100px 549.5px;
+}
+
+#cifrar:hover {
+    background-color: #424D51;
+    color: white;
+    
+}
+
+#descifrar {
+    background-color:  #F4C300;
+    transition: background-color .5s;
+    border: 0px;
+    color:#424D51;
+    font-family: arial ;
+    font-size: 100px;
+    padding: 100px 466.3px;
+}
+
+#descifrar:hover {
+    background-color: #424D51;
+    color: white;
+    
+}
+
+.buttons {
+    position: absolute;
+    margin: 0px;
+    background-color: rgba(255, 217, 0, 0.836);
+    border: 0px;
+    font-size: 20px;
+    padding: 9.5px;
+}
+#espacioscifrar {
+    top: 330px;
+    left: 830px;
+    width: 400px;
+}
+#codigocifrar {
+    top: 250px;
+    left: 830px;
+    width: 400px;
+}
+::placeholder { color: #858585; }
+
+
+.inputsnumber {
+    position: relative;
+    font-size: 25px;
+    font-family: arial;
+    color: #858585;
+    height: 30px;
+    width: 372px;
+    padding-bottom: 7px;
+    border: 0px;
+    border-bottom: 1.45px solid #858585;
+    background-color:white;
+}
+
+.inputstxt{
+    position: absolute;
+    font-size: 25px;
+    font-family: arial;
+    color: #858585;
+    border: 0px;
+    padding-bottom: 7px;
+    border-bottom: 1.45px solid #858585;
+    height: 30px;
+    background-color:white;
+
+}
+
+#cifrartxt {
+    top: 400px;
+    left: 1000px;
+}
+
+#panelbotones {
+    background-color: white;
+    display: none;
+    position: absolute;
+}
+
+#panelcifrado {
+    background-image: url("https://images.unsplash.com/photo-1507990178188-0118b242deda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1391&q=80");
+    background-size: 100%;
+    background-size: cover;
+    display: none;
+    height: 625px;
+    width: 50%;
+    margin: 0;
+}
+
+#vercifrado {
+    display: none;
+    background-color: #F4C300;
+    background-size: cover;
+    margin: 0px;
+    height: 575px;
+    width: 100%;
+    
+}
+
+#paneldescifrado {
+    background-image: url(https://images.unsplash.com/photo-1552808903-dba1210f31c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80);
+    background-size: 100%;
+    background-size: cover;
+    float: right;
+    height: 625px;
+    width: 50%;
+    margin: 0;
+    display: none;
+}
+
+#codigodescifrar {
+    width: 400px ;
+    top: 220px;
+    left: 100px;
+}
+
+#espaciosdescifrar {
+    top: 300px;
+    right: 580px;
+    width: 400px
+}
+
+#descifrartxt {
+    top: 380px;
+    right: 1007px;
+}
+
+.textopantalla {
+    text-align: center;
+    font-size: 50px;
+    font-family: arial;
+    color: #858585;
+
+}
+
+#verdescifrado {
+    background-color: #F4C300;
+    margin: 0px;
+    background-size: cover;
+    height: 575px;
+    width: 100%;
+    display: none;
+}
+
+#reiniciar1 {
+    top: 300px;
+    left: 625px;
+}
+
+#reiniciar2 {
+    top: 300px;
+    left: 625px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    font-size: 17px;
+    color: white;
+    font-family: arial;
+}

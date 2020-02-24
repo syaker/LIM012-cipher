@@ -7,8 +7,51 @@
   </head>
   <body>
     <header></header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <div id = "fondo1">
+        <div id="entrada">
+            <img id="logo1" src="Logo.png">
+            <img id="icon" src="Icono.png">
+            <p id = "user">Usuario</p>
+            <form id="form1">
+                <input id="boleta" type="text" size="20" placeholder="Ingrese boleta">
+                <button id="ingresar" type="button" >Ingresar</button>
+            </form>
+        </div>
+        </div>
+
+        <div id="panelbotones">
+            <button id="cifrar" type = "button"><b>Cifrar</b></button>
+            <button id="descifrar" type = "button"><b>Descifrar</b></button>
+        </div>
+
+        <div id="panelcifrado">
+            <input id = "codigocifrar" class = "inputstxt" type="text" placeholder="Ingrese texto a cifrar">
+            <input id = "espacioscifrar" type="number" class="inputsnumber" placeholder="N° de espacios">
+            <button id = "cifrartxt" class = "buttons">Cifrar</button>
+            </div>
+
+        <div id = "vercifrado">
+            <p id = "txtcifrado" class="textopantalla"></p>
+            <button id = "reiniciar1" class = "buttons">Finalizar</button>
+        </div>
+
+        <div id="paneldescifrado">
+            <input id = "codigodescifrar" class = "inputstxt" type="text" placeholder="Ingresa tu mensaje a descifrar">
+            <input id="espaciosdescifrar" class="inputsnumber" type="number" placeholder="N° espacios">
+            <button id = "descifrartxt" class = "buttons">Descifrar</button>
+        </div>
+
+        <div id = "verdescifrado">
+            <p id = "txtdescifrado" class="textopantalla"></p>
+            <button id = "reiniciar2" class = "buttons">Finalizar</button>
+        </div>
+
+
+    </main>
+    <footer class="footer">
+        <p>Powered by &lt;Laboratoria&gt;</p>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
