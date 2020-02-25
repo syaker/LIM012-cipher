@@ -51,8 +51,23 @@ Esta es una aplicación web formulada para generar claves con el tipo de cifrado
 
 ## Prototipo final y comentarios 🎓🗳️
 
-![Image7] (7.jpg)
+>Este es el prototipo final del proyecto
 
+* Página de inicio
+
+![Image7](7.jpg)
+
+* Página de cifrado
+
+![Image8](8.jpg)
+
+* Página de descifrado
+
+![Image9](9.jpg)
+
+* Página de visualización de texto
+
+![Image10](10.jpg)
 
 
 
