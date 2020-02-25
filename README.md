@@ -31,7 +31,17 @@ Esta aplicacion web está diseñada para los clientes que compraron una caja fue
 
 Al ingresar con el numero de boleta que se obtiene en la compra, el usuario introduce un mensaje en el recuadro, coloca el numero de espacios segun su preferencia y da click en el boton de "Cifrar", consecutivamente se le muestra el mensaje cifrado.
 
+## Prototipo inicial
+
 ![Image5](5.jpg)
+
+    Este es el prototipo inicial del proyecto
+
+![Image6](6.jpg)
+
+## Feedback del prototipo
+
+
 
 
 
