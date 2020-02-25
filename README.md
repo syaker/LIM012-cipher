@@ -39,7 +39,7 @@ Al ingresar con el numero de boleta que se obtiene en la compra, el usuario intr
 
 ![Image6](6.jpg)
 
-## Feedback del prototipo
+## Feedback del prototipo 👁️‍🗨️
 
 
 
