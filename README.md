@@ -49,7 +49,7 @@ Esta es una aplicación web formulada para generar claves con el tipo de cifrado
     Este era básicamente el proyecto.
 
 
-## Prototipo final y comentarios 🎓🗳️
+## Prototipo final 🎓
 
 >Este es el prototipo final del proyecto
 
@@ -69,6 +69,12 @@ Esta es una aplicación web formulada para generar claves con el tipo de cifrado
 
 ![Image10](10.jpg)
 
+## Comentarios finales 🗳️
+
+    Luego de finalizar el proyecto y afinar algunos estilos, volví a mostrar el resultado a mi squad:
+
+* "Me gusto el resultado y la combinacion de colores"
+* "Fue mas legible que en un inicio y mas simple"
 
 
 
